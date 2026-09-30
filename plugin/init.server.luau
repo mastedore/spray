@@ -36,12 +36,11 @@ local Installer = require(script.Installer)
 local PlaygroundWidget = require(script.PlaygroundWidget)
 local PreviewMode = require(script.PreviewMode)
 
---- Toolbar icons. Empty shows the button's text alone; put asset ids here to give them one.
 const ICONS = {
-	Import = "",
-	Remove = "",
-	Playground = "",
-	Preview = "",
+	Import = "rbxassetid://137387810288534",
+	Remove = "rbxassetid://107747225325025",
+	Playground = "rbxassetid://80439842871063",
+	Preview = "rbxassetid://118214097599499",
 }
 
 Host.Spray = require(script.Spray) :: any
