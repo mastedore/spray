@@ -5,7 +5,7 @@
 
 # Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
 
-<!--moonwave-hide-before-this-line-->
+https://www.youtube.com/watch?v=Fz7rAGZM6BM
 
 ParticleEmitters for Roblox GUI. Put a regular ParticleEmitter inside a Frame, author it in the Properties panel the way you would in 3D, and Spray plays it on screen in 2D with ImageLabels.
 
