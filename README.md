@@ -3,9 +3,12 @@
 </p>
 <h1 align="center">Spray! The Roblox 2D ParticleEmitter library.</h1>
 
-# Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
+![Spray Demo](resources/demo.gif)
 
-https://www.youtube.com/watch?v=Fz7rAGZM6BM
+Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
+Showcase: https://www.youtube.com/watch?v=Fz7rAGZM6BM
+
+<!--moonwave-hide-before-this-line-->
 
 ParticleEmitters for Roblox GUI. Put a regular ParticleEmitter inside a Frame, author it in the Properties panel the way you would in 3D, and Spray plays it on screen in 2D with ImageLabels.
 
@@ -19,6 +22,8 @@ sparkles:Emit(30)
 The emitter is the config. Texture, Color, Size, Transparency, Squash, Speed, Drag, Acceleration, shapes, flipbooks, Rate and TimeScale are read from it directly. The few settings a 3D emitter has no property for (the emission area on screen, a size multiplier, the particle cap) are attributes on that same emitter.
 
 Particles aren't stepped frame by frame. Where each one is gets computed from the Spray's clock, so an effect can be paused, jumped to any moment with `:SetTime()` or played backwards, and with a fixed seed it produces the same particles every time.
+
+![scrub demo](resources/scrub.gif)
 
 ## Installing
 
@@ -130,6 +135,8 @@ require(game.ReplicatedStorage.Packages.Spray.Preview).Play()
 It loops the selection in bursts. Property changes show up the next time you call `.Play()`. `.Scrub(0.15)` freezes every previewed emitter at one moment, which helps while you edit a Size or Transparency curve, and `.Step(0.02)` nudges that moment forward. Call `.Stop()` before saving, because the preview turns on any hidden UI it needs to show the emitters and `.Stop()` is what turns it back off.
 
 The [Spray plugin](https://github.com/mastedore/spray/blob/main/plugin/README.md) adds a toolbar with Import, Remove, Playground and Preview. Its Preview plays the selected emitters in place with a playback window and rebuilds on every edit. Playground opens a sandbox where you build effects on a stage and export them to StarterGui, with the LocalScript that plays them if you want it. The same playground also runs as a game: [Spray Playground](https://www.roblox.com/games/130730172678468).
+
+![scrub demo](resources/preview.gif)
 
 ## Limitations
 
