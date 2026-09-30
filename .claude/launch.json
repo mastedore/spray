@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "docs",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "moonwave@1.4.2", "dev", "--code", "Spray/init.luau", "--code", "Spray/Preview.luau"],
+      "port": 3000
+    }
+  ]
+}

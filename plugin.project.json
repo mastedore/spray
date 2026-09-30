@@ -1,0 +1,13 @@
+{
+  "name": "SprayPlugin",
+  "globIgnorePaths": [
+    "plugin/playground/Game.client.luau",
+    "**/*.md"
+  ],
+  "tree": {
+    "$path": "plugin",
+    "Spray": {
+      "$path": "Spray"
+    }
+  }
+}

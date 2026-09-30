@@ -1,0 +1,25 @@
+{
+  "name": "Spray Tests",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Packages": {
+        "$className": "Folder",
+        "Spray": {
+          "$path": "Spray"
+        }
+      },
+      "DevPackages": {
+        "$path": "DevPackages"
+      },
+      "Tests": {
+        "$path": "tests/Spray"
+      }
+    },
+    "ServerScriptService": {
+      "RunTests": {
+        "$path": "tests/RunTests.server.luau"
+      }
+    }
+  }
+}

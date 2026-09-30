@@ -1,0 +1,36 @@
+# Moonwave docs site. Build it locally with:
+#   npx moonwave@1.4.2 dev --code Spray/init.luau --code Spray/Preview.luau
+# and .github/workflows/docs.yml publishes it to GitHub Pages on every push to main.
+#
+# Only init.luau and Preview.luau are passed to Moonwave. The other modules are internal
+# and keep their --- comments for luau-lsp, which Moonwave would try to publish.
+
+title = "Spray"
+gitRepoUrl = "https://github.com/mastedore/spray"
+gitSourceBranch = "main"
+changelog = true
+classOrder = ["Spray", "Preview"]
+
+[docusaurus]
+url = "https://mastedore.github.io"
+# Has to match the repository name, since GitHub Pages serves the site at /<repo>/.
+baseUrl = "/spray/"
+organizationName = "mastedore"
+projectName = "spray"
+tagline = "ParticleEmitters for Roblox GUI"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Set up in the Properties window"
+description = "Spray reads a regular ParticleEmitter: Texture, Color, Size, Speed, Drag, flipbooks, Rate and the rest. The few extra settings are attributes on the same emitter."
+
+[[home.features]]
+title = "Pause, scrub, rewind"
+description = "Particles are calculated from a clock instead of being moved every frame, so any moment of an effect can be frozen, jumped to or played backwards."
+
+[[home.features]]
+title = "Cheap to draw"
+description = "ImageLabels are pooled and reused, every Spray shares one update loop, and only the properties that changed since the last frame get written."
