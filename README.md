@@ -4,9 +4,12 @@
 <h1 align="center">Spray! The Roblox 2D ParticleEmitter library.</h1>
 
 ![Spray Demo](resources/demo.gif)
+![preview demo](resources/preview.gif)
+![scrub demo](resources/scrub.gif)
 
-Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
-Showcase: https://www.youtube.com/watch?v=Fz7rAGZM6BM
+# Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
+
+# Showcase: https://www.youtube.com/watch?v=Fz7rAGZM6BM
 
 <!--moonwave-hide-before-this-line-->
 
@@ -23,7 +26,6 @@ The emitter is the config. Texture, Color, Size, Transparency, Squash, Speed, Dr
 
 Particles aren't stepped frame by frame. Where each one is gets computed from the Spray's clock, so an effect can be paused, jumped to any moment with `:SetTime()` or played backwards, and with a fixed seed it produces the same particles every time.
 
-![scrub demo](resources/scrub.gif)
 
 ## Installing
 
@@ -136,7 +138,6 @@ It loops the selection in bursts. Property changes show up the next time you cal
 
 The [Spray plugin](https://github.com/mastedore/spray/blob/main/plugin/README.md) adds a toolbar with Import, Remove, Playground and Preview. Its Preview plays the selected emitters in place with a playback window and rebuilds on every edit. Playground opens a sandbox where you build effects on a stage and export them to StarterGui, with the LocalScript that plays them if you want it. The same playground also runs as a game: [Spray Playground](https://www.roblox.com/games/130730172678468).
 
-![scrub demo](resources/preview.gif)
 
 ## Limitations
 
