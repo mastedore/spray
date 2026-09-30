@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://github.com/mastedore/spray/blob/main/resources/spray_logo.png" alt="Spray logo"/>
+  <img src="https://github.com/mastedore/spray/blob/main/resources/spray_logo_smaller.png" alt="Spray logo"/>
 </p>
-<h1 align="center">Spray!</h1>
+<h1 align="center">Spray! The Roblox 2D ParticleEmitter library.</h1>
 
-Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
+# Documentation and API reference: [mastedore.github.io/spray](https://mastedore.github.io/spray/)
 
 <!--moonwave-hide-before-this-line-->
 
