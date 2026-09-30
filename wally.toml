@@ -1,6 +1,7 @@
 [package]
 name = "mastedore/spray"
 description = "ParticleEmitters rendered as GUI. Plays an emitter's authored effect out of ImageLabels, with a scrubbable, deterministic clock."
+repository = "https://github.com/mastedore/spray"
 version = "1.0.0"
 license = "MPL-2.0"
 authors = ["Mastedore"]
