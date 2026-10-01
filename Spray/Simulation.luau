@@ -1,5 +1,12 @@
 --!strict
 --!native
+
+--[[
+
+	Connected Discord-GitHub
+
+]]
+
 -->> Simulation.luau
 --> The physics. The whole file rests on two ideas.
 -->
